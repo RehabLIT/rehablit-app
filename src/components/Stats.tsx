@@ -5,30 +5,30 @@ export default function Stats() {
   const stats = [
     {
       icon: Users,
-      value: '10,000+',
+      value: '500+',
       label: 'Elite Athletes',
-      description: 'Trust our platform worldwide',
+      description: 'Already trust our services',
       color: 'blue'
     },
     {
       icon: Award,
       value: '95%',
       label: 'Success Rate',
-      description: 'In injury prevention',
+      description: 'Proven injury prevention',
       color: 'green'
     },
     {
       icon: Globe,
       value: '50+',
       label: 'Sports',
-      description: 'Supported disciplines',
+      description: 'Currently supported',
       color: 'purple'
     },
     {
       icon: Clock,
-      value: '24/7',
-      label: 'AI Support',
-      description: 'Continuous monitoring',
+      value: '5+',
+      label: 'Years',
+      description: 'Of proven expertise',
       color: 'orange'
     }
   ];
@@ -54,7 +54,7 @@ export default function Stats() {
       name: 'BCCI Tournament Player',
       role: 'Professional Cricketer',
       sport: 'Domestic Cricket',
-      quote: 'The real-time monitoring and expert care have been crucial for maintaining peak performance throughout the season.',
+      quote: 'The expert care has been crucial for maintaining peak performance throughout the season.',
       rating: 5,
       image: '/phyio_in_BCCI_tournament.JPG'
     }
@@ -86,7 +86,7 @@ export default function Stats() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our platform delivers measurable outcomes that speak for themselves.
+            Our proven services have delivered measurable outcomes for elite athletes worldwide.
           </p>
         </div>
 
@@ -119,43 +119,6 @@ export default function Stats() {
           })}
         </div>
 
-        {/* Testimonials Section */}
-        <div className="text-center mb-12">
-          <h3 className="text-3xl font-bold text-gray-900 mb-4">What Champions Say</h3>
-          <p className="text-lg text-gray-600">Real stories from elite athletes who transformed their performance</p>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300"
-            >
-              <div className="flex items-center space-x-1 mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
-              
-              <p className="text-gray-700 mb-6 italic">
-                "{testimonial.quote}"
-              </p>
-              
-              <div className="flex items-center space-x-4">
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover"
-                />
-                <div>
-                  <div className="font-semibold text-gray-900">{testimonial.name}</div>
-                  <div className="text-sm text-gray-600">{testimonial.role}</div>
-                  <div className="text-xs text-blue-600 font-medium">{testimonial.sport}</div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );

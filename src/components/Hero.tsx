@@ -1,5 +1,5 @@
 import React from 'react';
-import { Play, ArrowRight, Key, TrendingUp, Shield } from 'lucide-react';
+import { Instagram, ArrowRight, Key, TrendingUp, Shield } from 'lucide-react';
 
 export default function Hero() {
   const dotPatternSvg = "data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E";
@@ -19,7 +19,7 @@ export default function Hero() {
           <div className="flex flex-col justify-start order-1 lg:order-1 pt-8">
             <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 rounded-full px-4 py-2 mb-8 border border-blue-200 w-fit">
               <Key className="w-4 h-4" />
-              <span className="text-sm font-semibold">AI-Powered Performance Platform</span>
+              <span className="text-sm font-semibold">Coming Soon - Register for Early Access</span>
             </div>
 
             <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
@@ -30,26 +30,26 @@ export default function Hero() {
             </h1>
 
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Advanced rehabilitation and performance enhancement platform for athletes who demand excellence. 
-              Transform your potential with data-driven insights and personalized training protocols.
+              For years, we've provided elite athletes with advanced rehabilitation and performance enhancement services. 
+              Now we're bringing our proven expertise to everyone through our revolutionary app platform.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <button className="bg-gradient-to-r from-[#3b0857] to-[#5a1a80] text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-[#2d0642] hover:to-[#4a1570] transition-all duration-200 flex items-center justify-center space-x-2 group shadow-xl w-fit">
-                <span>Start Journey</span>
+                <span>Get Early Access</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
-              <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full font-semibold text-lg hover:border-gray-400 hover:bg-gray-50 transition-all duration-200 flex items-center justify-center space-x-2 w-fit">
-                <Play className="w-5 h-5" />
-                <span>Watch Demo</span>
-              </button>
+              <a href="https://www.instagram.com/askdr_ut/?hl=en" target="_blank" rel="noopener noreferrer" className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full font-semibold text-lg hover:border-gray-400 hover:bg-gray-50 transition-all duration-200 flex items-center justify-center space-x-2 w-fit">
+                <Instagram className="w-5 h-5" />
+                <span>See Our Work</span>
+              </a>
             </div>
 
             {/* Trust Indicators */}
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
               <div className="text-center">
-                <div className="text-3xl font-bold text-gray-900 mb-1">10K+</div>
-                <div className="text-gray-500 text-sm">Elite Athletes</div>
+                <div className="text-3xl font-bold text-gray-900 mb-1">500+</div>
+                <div className="text-gray-500 text-sm">Elite Athletes Served</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-gray-900 mb-1">95%</div>
@@ -57,7 +57,7 @@ export default function Hero() {
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-gray-900 mb-1">50+</div>
-                <div className="text-gray-500 text-sm">Sports</div>
+                <div className="text-gray-500 text-sm">Sports Covered</div>
               </div>
             </div>
           </div>

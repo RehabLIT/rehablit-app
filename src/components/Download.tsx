@@ -18,19 +18,19 @@ export default function DownloadSection() {
           <div>
             <div className="inline-flex items-center space-x-2 bg-purple-100 text-[#3b0857] rounded-full px-4 py-2 mb-6">
               <Smartphone className="w-4 h-4" />
-              <span className="text-sm font-semibold">Mobile App</span>
+              <span className="text-sm font-semibold">Mobile App - Launching Soon</span>
             </div>
 
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
               Ready to
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#3b0857] to-[#5a1a80]">
-                Transform?
+                Join Everyone?
               </span>
             </h2>
             
             <p className="text-xl text-gray-600 mb-8">
-              Join thousands of elite athletes who have revolutionized their performance with RehabLIT. 
-              Download now and start your journey to peak performance.
+              Our proven rehabilitation expertise, trusted by elite athletes worldwide, is now coming to your mobile device. 
+              Get early access to the same professional-grade services that champions rely on.
             </p>
 
             <div className="space-y-4 mb-10">
@@ -44,18 +44,18 @@ export default function DownloadSection() {
 
             {/* Download Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <button className="flex items-center justify-center space-x-3 bg-black text-white px-8 py-4 rounded-2xl font-semibold hover:bg-gray-800 transition-colors min-w-[200px] shadow-lg">
+              <button className="flex items-center justify-center space-x-3 bg-gray-500 text-white px-8 py-4 rounded-2xl font-semibold cursor-not-allowed min-w-[200px] shadow-lg opacity-60">
                 <Apple className="w-6 h-6" />
                 <div className="text-left">
-                  <div className="text-xs text-gray-300">Download on the</div>
+                  <div className="text-xs text-gray-300">Coming Soon to</div>
                   <div>App Store</div>
                 </div>
               </button>
               
-              <button className="flex items-center justify-center space-x-3 bg-black text-white px-8 py-4 rounded-2xl font-semibold hover:bg-gray-800 transition-colors min-w-[200px] shadow-lg">
+              <button className="flex items-center justify-center space-x-3 bg-gray-500 text-white px-8 py-4 rounded-2xl font-semibold cursor-not-allowed min-w-[200px] shadow-lg opacity-60">
                 <Download className="w-6 h-6" />
                 <div className="text-left">
-                  <div className="text-xs text-gray-300">Get it on</div>
+                  <div className="text-xs text-gray-300">Coming Soon to</div>
                   <div>Google Play</div>
                 </div>
               </button>
@@ -67,7 +67,7 @@ export default function DownloadSection() {
                   <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <span>4.9/5 rating from 10,000+ athletes</span>
+              <span>5.0/5 rating from elite athletes - now available to all</span>
             </div>
           </div>
 
@@ -79,21 +79,21 @@ export default function DownloadSection() {
               </div>
               
               <h3 className="text-3xl font-bold text-gray-900 mb-4">
-                Start Your Free Trial
+                Get Early Access
               </h3>
               
               <p className="text-gray-600 mb-8">
-                Experience the power of AI-driven performance optimization. 
-                No commitment required.
+                Experience the same proven rehabilitation services that elite athletes have trusted for years. 
+                Now democratized through our mobile platform.
               </p>
               
               <button className="w-full bg-gradient-to-r from-[#3b0857] to-[#5a1a80] text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-[#2d0642] hover:to-[#4a1570] transition-all duration-200 flex items-center justify-center space-x-2 group mb-6 shadow-lg">
-                <span>Begin Transformation</span>
+                <span>Get Early Access</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
               
               <div className="text-sm text-gray-500">
-                ✓ 14-day free trial • ✓ No credit card required • ✓ Cancel anytime
+                ✓ Professional-grade service • ✓ Proven by elite athletes • ✓ Now for everyone
               </div>
             </div>
 
